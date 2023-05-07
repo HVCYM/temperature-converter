@@ -7,6 +7,7 @@ const submitButton = document.querySelector('.main__container-submit');
 submitButton.addEventListener('click', (event) => {
    let ans = 0;
    const data = input.value;
+   output.value = '';
    if(!data) {
       alert('Error : Input Missing!');
       return;
