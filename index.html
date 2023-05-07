@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset = "UTF-8">
+   <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+   <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+   <link rel = "stylesheet" href = "index.css">
+   <title>Document</title>
+</head>
+<body>
+   <div class = "header fb">
+      <img src="logo/logo.png" class = "logo-image">
+      <p class = "header__title">Temperature Converter</p>
+   </div>
+   <div class = "main__container fb">
+      <div>
+         <input type = "number" class = "main__container-input fa" placeholder = "Input">
+         <input type = "number" class = "main__container-input fa output" placeholder = "Output">
+      </div>
+      <select name = "temperature" class = "main__container-options fa">
+         <option value = "0" class = "options__value"> Fahrenheit to Celsius</option>
+         <option value = "1" class = "options__value"> Celsius to Fahrenheit</option>
+      </select>
+      <button class = "main__container-submit fa">submit</button>
+   </div>
+   <script src = "index.js"></script>
+</body>
+</html>

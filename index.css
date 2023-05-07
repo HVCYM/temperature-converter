@@ -1,0 +1,94 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: azure;
+   /* align-items: center; */
+   text-align: center;
+}
+
+.header {
+   background-color: rgb(235, 153, 123);
+   margin-top: 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.main__container {
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(141, 46, 8);
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+}
+
+.fb {
+   margin-left: 5rem;
+   margin-right: 5rem;
+   padding: 2rem;
+}
+
+.fa {
+   margin: 1rem;
+}
+
+.main__container-input {
+   width: 20rem !important;
+   height: 3rem !important;
+   border-radius: 0.5rem;
+   text-align: center;
+   font-size: 2rem;
+}
+
+.main__container-options {
+   width: 20rem !important;
+   height: 3rem !important;
+   background-color: beige;
+   border: none;
+   border-radius: 0.5rem;
+   text-align: center;
+   font-size: 1.5rem;
+}
+
+.options__value {
+   font-size: x-large;
+}
+
+.main__container-submit {
+   width: 10rem;
+   height: fit-content;
+   font-size: x-large;
+   background-color: coral;
+   border-radius: 0.5rem;
+   padding: 0.5rem;
+}
+
+.main__container-submit:hover {
+   background-color: rgb(224, 134, 101);
+}
+
+.main__container-submit:active {
+   background-color: rgb(235, 97, 47);
+}
+
+.header__logo {
+   /* background-color: aqua; */
+   height: 3rem;
+}
+
+.header__title {
+   /* background-color: aquamarine; */
+   font-size: 4rem;
+}
+
+.logo-image {
+   height: 5rem !important;
+   width: fit-content;
+}
